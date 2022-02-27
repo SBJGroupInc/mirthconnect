@@ -1,0 +1,9 @@
+{
+  "packageName": "OpenapiGenerator.MirthConnect311",
+  "sourceFolder": ".",
+  "targetFramework": "net5.0",
+  "useDateTimeOffset": false,
+  "netCoreProjectFile": true,
+  "returnICollection": true,
+  "packageVersion": "0.0.0"
+}

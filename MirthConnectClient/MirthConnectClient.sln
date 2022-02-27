@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MirthConnectClient", "MirthConnectClient\MirthConnectClient.csproj", "{A3ABA12F-B64C-4DEB-ACFD-C2C3892B038B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenapiGenerator.MirthConnect311", "..\OpenapiGenerator.MirthConnect311\OpenapiGenerator.MirthConnect311\OpenapiGenerator.MirthConnect311.csproj", "{7517B71A-931C-4406-9E8B-D724507AA77E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{64BB2D4D-8BC0-41A5-B9E1-6A5A92B850AB}"
+	ProjectSection(SolutionItems) = preProject
+		config311.json = config311.json
+		mirth311.json = mirth311.json
+		OpenApiGenerator.ps1 = OpenApiGenerator.ps1
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3ABA12F-B64C-4DEB-ACFD-C2C3892B038B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3ABA12F-B64C-4DEB-ACFD-C2C3892B038B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3ABA12F-B64C-4DEB-ACFD-C2C3892B038B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3ABA12F-B64C-4DEB-ACFD-C2C3892B038B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7517B71A-931C-4406-9E8B-D724507AA77E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7517B71A-931C-4406-9E8B-D724507AA77E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7517B71A-931C-4406-9E8B-D724507AA77E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7517B71A-931C-4406-9E8B-D724507AA77E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5914284-5146-4377-948A-12FE94632AB3}
+	EndGlobalSection
+EndGlobal
